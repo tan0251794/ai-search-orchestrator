@@ -1,6 +1,6 @@
 # 📖 AI Search Summarizer App
 
-**Live Demo:** 👉 [https://www.tanly.blog](https://www.tanly.blog) 👈  
+[![Live Demo](live-demo.svg)](https://www.tanly.blog)
 
 ## 🚀 Introduction
 AI Search Summarizer is a **smart search application** that allows users to enter any topic, the system will:  
