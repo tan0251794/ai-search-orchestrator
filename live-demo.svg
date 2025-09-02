@@ -1,0 +1,45 @@
+<svg width="960" height="200" viewBox="0 0 960 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Live Demo: https://www.tanly.blog">
+  <title>Live Demo — https://www.tanly.blog</title>
+  <desc>Terminal-style framed banner linking to the live demo at www.tanly.blog</desc>
+
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#0a0f1a"/>
+    </linearGradient>
+    <!-- Soft glow for the border -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#6366f1" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Outer rounded border -->
+  <rect x="6" y="6" width="948" height="188" rx="16" ry="16"
+        fill="none" stroke="#6366f1" stroke-width="3" filter="url(#glow)"/>
+
+  <!-- Terminal body -->
+  <rect x="12" y="12" width="936" height="176" rx="14" ry="14" fill="url(#bg)"/>
+
+  <!-- Title bar -->
+  <rect x="12" y="12" width="936" height="44" rx="14" ry="14" fill="#0f172a"/>
+  <!-- macOS-style dots -->
+  <circle cx="34" cy="34" r="7" fill="#ff5f57"/>
+  <circle cx="56" cy="34" r="7" fill="#ffbd2e"/>
+  <circle cx="78" cy="34" r="7" fill="#28c940"/>
+
+  <!-- Title text -->
+  <text x="100" y="38"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+        font-size="16" fill="#94a3b8">AI Search Summarizer</text>
+
+  <!-- Big link headline -->
+  <text x="34" y="145"
+        font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+        font-size="34" font-weight="800" fill="#ffffff">🌐 https://www.tanly.blog</text>
+
+  <!-- Sub-caption -->
+  <text x="34" y="172"
+        font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+        font-size="14" fill="#cbd5e1">HTTPS enabled · Hosted on AWS EC2</text>
+</svg>
